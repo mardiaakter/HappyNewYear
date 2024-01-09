@@ -160,6 +160,58 @@ body {
 
 }
 
+.banner-three {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+}
+
+.banner-info {
+    padding-top: 100px;
+}
+
+
+span {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+p {
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    /* 175% */
+    text-transform: capitalize;
+}
+
+button {
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    background-color: #F00;
+    border-radius: 8px;
+    margin-top: 48px;
+    border: none;
+    
+
+
+
+}
 
 .bonus-section {
     width: 1320px;
@@ -171,6 +223,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    padding-top: 230px;
 }
 
 .b-title {
@@ -209,6 +262,16 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.holiday-one{
+    display: flex;
+}
+.holiday-two{
+    background-image: url(../images/Group\ 44.png);
+    /* background-position: left; */
+    background-repeat: no-repeat;
+
 }
 
 .portfolio {
@@ -275,14 +338,15 @@ footer {
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-.footer2{
+
+.footer2 {
     padding: 20px 0;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
-.footer3{
+
+.footer3 {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-
