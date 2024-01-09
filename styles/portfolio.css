@@ -174,7 +174,7 @@ body {
 }
 
 
-span {
+.p-description {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
