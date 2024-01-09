@@ -166,6 +166,7 @@ body {
     width: 1320px;
     height: 482px;
     margin: 0 auto;
+    border-radius: 16px;
 }
 
 .banner-info {
@@ -183,7 +184,7 @@ span {
     text-transform: capitalize;
 }
 
-p {
+ .paragraph {
     color: #F00;
 
     text-align: center;
@@ -192,9 +193,8 @@ p {
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-    /* 175% */
-    text-transform: capitalize;
-}
+ }
+  
 
 button {
     display: inline-flex;
@@ -263,6 +263,12 @@ button {
     font-weight: 700;
     line-height: normal;
 }
+.holiday{
+    width:1320px;
+    margin:20px auto;
+    text-align: center;
+    }
+
 
 .holiday-one{
     display: flex;
