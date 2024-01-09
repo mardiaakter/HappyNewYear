@@ -210,3 +210,79 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+
+.portfolio {
+    width: 1320px;
+    margin: 80px auto;
+}
+
+.img-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.subscribe {
+    width: 1320px;
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+.subscribe-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 212px;
+}
+
+input {
+    padding: 14px 40px;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff;
+    border: none;
+}
+
+.btn {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 14px 20px;
+    color: #FFF;
+    margin-left: -10px;
+}
+
+footer {
+    background: #070211;
+}
+
+.footer-container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 40px 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer2{
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.footer3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
